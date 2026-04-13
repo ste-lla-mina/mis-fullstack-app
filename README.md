@@ -34,5 +34,5 @@ Ensure you have the following installed:
 
 **Clone the Project**
 ```bash
-git clone <YOUR_REPO_URL_HERE>
+git clone <https://github.com/ste-lla-mina/mis-fullstack-app>
 cd my-demo-mis
