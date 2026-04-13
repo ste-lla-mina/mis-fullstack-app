@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --bg-slate: #f8fafc;
+  --card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--bg-slate);
+  color: #1e293b;
+}
+.auth-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+}
+
+.auth-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: var(--card-shadow);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Dashboard Layout */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+header {
+  background: white;
+  padding: 1.25rem 2rem;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: var(--card-shadow);
+  border: 1px solid #f1f5f9;
+}
+
+/* Buttons & Inputs */
+input, select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+  box-sizing: border-box; /* Fixes alignment! */
+}
+
+input:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-primary:hover { background: var(--primary-dark); }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th { text-align: left; padding: 1rem; color: #64748b; font-size: 0.85rem; text-transform: uppercase; }
+td { padding: 1rem; border-top: 1px solid #f1f5f9; }
+
+/* Center everything on the screen */
+.auth-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc; /* Light slate background */
+  padding: 20px;
+}
+
+/* The Login Box */
+.auth-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 24px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  max-width: 420px;
+  box-sizing: border-box; /* This prevents the inputs from overflowing */
+}
+
+/* Professional Input Styling */
+input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+  box-sizing: border-box; /* Crucial for alignment */
+}
+
+input:focus {
+  border-color: #6366f1;
+  outline: none;
+}
+
+/* The Login Button */
+.btn-primary {
+  width: 100%;
+  background: #6366f1;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: #4f46e5;
+}
