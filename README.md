@@ -36,3 +36,5 @@ Ensure you have the following installed:
 ```bash
 git clone <https://github.com/ste-lla-mina/mis-fullstack-app>
 cd my-demo-mis
+```
+Make your class smart using Modern MIS Portal.
